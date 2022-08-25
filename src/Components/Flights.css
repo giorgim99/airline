@@ -1,0 +1,35 @@
+.flightsroutebg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(255, 255, 255, 0.495);
+}
+
+.unable-div{
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+
+    border-top: 5px grey solid;
+    border-bottom: 5px grey solid;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.495);
+}
+.unable-div img{
+    max-height: 100px;
+    border-radius: 100%;
+}
+.home-link{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+    color: black;
+    background-color: #16b8f3;
+    padding: 10px;
+    border-radius: 5px;
+}

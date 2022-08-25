@@ -15,8 +15,8 @@ function Navlinks() {
       </li>
       
       <li>
-      <Link to='/work' className='nav-links' >
-          Work
+      <Link to='/flights' className='nav-links' >
+          Flights
         </Link>
       </li>
       

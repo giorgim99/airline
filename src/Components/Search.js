@@ -2,6 +2,7 @@ import React from 'react'
 import './Search.css'
 import ReactDatePicker from 'react-datepicker'
 import "react-datepicker/dist/react-datepicker.css";
+import { Link } from 'react-router-dom';
 
 function Search() {
   return (
@@ -16,7 +17,7 @@ function Search() {
                   <ReactDatePicker />
                   <ReactDatePicker />
                   <input type='text' placeholder='Passenger(s)' />
-                  <button className='search-btn'>🔍</button>
+                  <Link to='/flights' className='search-btn'>🔍</Link>
                 </div>
             </div>
           
