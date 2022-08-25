@@ -5,6 +5,8 @@ import Introduction from './Components/Introduction';
 import Offers from './Components/Offers';
 import Search from './Components/Search';
 import Flights from './Components/Flights';
+import Contact from './Components/Contact';
+
 
 //Routes instead of Switch
 function App() {
@@ -24,6 +26,10 @@ function App() {
 
                   <Route path='/flights'>
                     <Flights />
+                  </Route>
+
+                  <Route path='/contact'>
+                    <Contact />
                   </Route>
 
                 </Switch>

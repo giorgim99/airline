@@ -1,0 +1,25 @@
+.contact-route{
+    text-align: center;
+    height: 100vh;
+    background-color: #149dce;
+
+}
+
+.contact-route h1{
+    padding-top: 50px;
+
+
+}
+
+.contact-route .imglinks{
+    margin-top: 200px;
+}
+
+
+.phonenumbers-div{
+    position: absolute;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+}

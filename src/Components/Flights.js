@@ -14,7 +14,7 @@ function Flights() {
 
         <div className='unable-div'>
           <img src={sign}></img>
-          <h1>Apologies, we do not have a match for your flight</h1>
+          <h1>Apologies, we do not have avaliable flights for the time being</h1>
           <p>Due to COVID-19 regulations, our airlines are temporarily closed and unable to operate</p>
         </div>
         <Link to='/' className='home-link'>Home</Link>
