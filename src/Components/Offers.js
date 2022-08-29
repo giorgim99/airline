@@ -7,15 +7,25 @@ import gmailicon from './gmailicon.png'
 import githubicon from './githubicon.png'
 import { Link } from 'react-router-dom'
 
+
+const CityListings = (props) =>{
+
+  return(
+   
+    <article  className='singleItem'>
+      <h3>{props.visitcity}</h3>
+      <img src={props.cityimg} />
+      <h3>{props.cityprice}</h3>
+    </article>
+  )
+
+}
+
+
 function Offers() {
-  
-  
-  function toRick(){
-    
+  const pageVisitDelay = () =>{
+    setTimeout(()=>{}, 2000)
   }
-  
-  
-  
   return (
 
 
@@ -28,45 +38,28 @@ function Offers() {
             
             
             <div className='offeritems'>
+
+              <CityListings 
+              visitcity='Visit Turkey'
+              cityimg={turkey}
+              cityprice='From 68$'
+              />
+              <CityListings 
+              visitcity='Visit Vienna'
+              cityimg={vienna}
+              cityprice='From 410$'
+              />
+              <CityListings 
+              visitcity='Visit Paris'
+              cityimg={paris}
+              cityprice='From 290$'
+              />
             
-              
-              <div className='singleItem'>
-                <h3>
-                  Visit Turkey
-                </h3>
-                <img src={turkey}></img>
-                <h3>
-                  From 68$
-                </h3>
-                <p><Link class="divLink" to='/flights'>ayowaduhek</Link></p>
-              </div>
-                
-              
-              <div className='singleItem'>
-                <h3>
-                  Visit Vienna
-                </h3>
-                <img src={vienna}></img>
-                <h3>
-                  From 419$
-                </h3>
-              </div>
-            
-               
-              <div className='singleItem'>
-                <h3>
-                  Visit Paris
-                </h3>
-                <img src={paris}></img>
-                <h3>
-                  From 290$
-                </h3>
+             <p><Link class="divLink" to='/flights'>ayo</Link></p>
 
-              </div>
+             <br></br>
 
-              <br></br>
-
-              <Link className='alldestinations' to='/flights'>See All Destinations</Link>
+             <Link className='alldestinations' to='/flights' >See All Destinations</Link>
 
             </div>
 
@@ -92,5 +85,6 @@ function Offers() {
 
   )
 }
+
 
 export default Offers

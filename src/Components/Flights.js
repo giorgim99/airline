@@ -2,6 +2,7 @@ import React from 'react'
 import './Flights.css'
 import sign from './warning-sign.png'
 import { Link } from 'react-router-dom'
+import {motion} from 'framer-motion';
 
 
 function Flights() {
@@ -9,7 +10,11 @@ function Flights() {
 
   return (
 
-    <div className='flightsroute'>
+    <motion.div className='flightsroute'
+    initial={{width: 0}}
+    animate={{width: "100%"}}
+    exit={{x: window.innerWidth}}
+    >
       <div className='flightsroutebg'></div>
 
         <div className='unable-div'>
@@ -19,7 +24,7 @@ function Flights() {
         </div>
         <Link to='/' className='home-link'>Home</Link>
         
-    </div>
+    </motion.div>
   )
 }
 

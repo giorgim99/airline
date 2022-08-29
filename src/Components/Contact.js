@@ -2,10 +2,17 @@ import './Contact.css'
 import React from 'react'
 import gmailicon from './gmailicon.png'
 import githubicon from './githubicon.png'
+import {motion} from 'framer-motion';
+
 
 function Contact() {
   return (
-    <div className='contact-route'>
+    <motion.div 
+    className='contact-route'
+    initial={{width: 0}}
+    animate={{width: "100%"}}
+    exit={{x: window.innerWidth}}
+    >
         <div>
             <h1>Contact Us Here!</h1>
 
@@ -22,7 +29,7 @@ function Contact() {
             </ul>
             
         </div>
-    </div>
+    </motion.div>
   )
 }
 
