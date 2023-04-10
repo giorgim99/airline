@@ -14,8 +14,8 @@ function Search() {
                 <div className='input-items'>
                   <input type='text' placeholder='From' />
                   <input type='text' placeholder='To' />
-                  <ReactDatePicker />
-                  <ReactDatePicker />
+                  <input type='date' placeholder='Set'></input>
+                  <input type='date' placeholder='Return'></input>
                   <input type='text' placeholder='Passenger(s)' />
                   <Link to='/flights' className='search-btn'>🔍</Link>
                 </div>
