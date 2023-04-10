@@ -55,7 +55,7 @@ function Offers() {
               cityprice='From 290$'
               />
             
-             <p><Link class="divLink" to='/flights'>ayo</Link></p>
+             <p><Link class="divLink" to='/flights'></Link></p>
 
              <br></br>
 
@@ -66,7 +66,7 @@ function Offers() {
 
             <div>
               <p className='welcome-p'>
-              Welcome to the Maiz Airways website! Our airline operates direct flights from Tbilisi to Tel Aviv, Vienna, Amsterdam, Paris and Yerevan. The fleetpark consists of Bing 737-700, Bong 737-800 and one CR7 200. Our crew consists of highly qualified pilots and cabin staff who get their education and training in worldwide qualified centers. They are constantly improving their knowledge and skills. Safety and comfort of flights are the priority of Maiz Airways. All our tariffs include hand luggage, as well as beverages. We are looking to welcome you on board! Fly with Maiz Airways!
+              Welcome to the Main Airways website! Our airline operates direct flights from Tbilisi to Tel Aviv, Vienna, Amsterdam, Paris and Yerevan. The fleetpark consists of Bing 737-700, Bong 737-800 and one CR7 200. Our crew consists of highly qualified pilots and cabin staff who get their education and training in worldwide qualified centers. They are constantly improving their knowledge and skills. Safety and comfort of flights are the priority of Maiz Airways. All our tariffs include hand luggage, as well as beverages. We are looking to welcome you on board! Fly with Maiz Airways!
               </p>
             </div>
         </div>

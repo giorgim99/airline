@@ -18,7 +18,7 @@ function Navbar() {
         <div className='navbar'>
 
           <Link to='/'>
-            Maiz
+            Main
           </Link>
          
           <div className='nav-container'>

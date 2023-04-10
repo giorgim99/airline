@@ -11,7 +11,7 @@ function Introduction() {
             <div className='intro-container'>
 
                 <h1>
-                    Welcome To Maiz Airlines
+                    Welcome To Main Airlines
                 </h1>
             
                 <p>
